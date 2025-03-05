@@ -1,0 +1,35 @@
+{
+  "name": "mood_tracker_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env src/server.js",
+    "dev": "nodemon --env-file=.env src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Web-Design-Development-Society/mood_tracker_api.git"
+  },
+  "keywords": [],
+  "author": "byui webdevsociety",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Web-Design-Development-Society/mood_tracker_api/issues"
+  },
+  "homepage": "https://github.com/Web-Design-Development-Society/mood_tracker_api#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "eslint": "^9.21.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-n": "^17.16.2",
+    "eslint-plugin-promise": "^7.2.1",
+    "globals": "^16.0.0",
+    "nodemon": "^3.1.9"
+  }
+}
